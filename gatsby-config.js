@@ -1,9 +1,8 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.org/docs/gatsby-config/
- */
-
 module.exports = {
-  /* Your site config here */
+  siteMetadata: {
+    title: "Green Yoga",
+    description: "Pay as you wish yoga classes in Berlin to fight climate change",
+    language: "en"
+  },
+  plugins: [`gatsby-plugin-react-helmet`]
 }
