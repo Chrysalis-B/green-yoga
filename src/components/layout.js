@@ -22,7 +22,7 @@ export default (props) => {
     <React.Fragment>
         <Helmet>
             <html lang={data.site.siteMetadata.language}/>
-            <title>{data.site.siteMetadata.title} </title>
+            <title>{data.site.siteMetadata.title}</title>
             <meta name="description" content={data.site.siteMetadata.description}/>
         </Helmet>
         <Header />
