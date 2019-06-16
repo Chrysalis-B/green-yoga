@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import Footer from "./footer"
+import "./layout.css"
 
 export default (props) => {
     const data = useStaticQuery(
@@ -24,12 +25,16 @@ export default (props) => {
             <html lang={data.site.siteMetadata.language}/>
             <title>{data.site.siteMetadata.title}</title>
             <meta name="description" content={data.site.siteMetadata.description}/>
+            <link href="https://fonts.googleapis.com/css?family=Raleway:400,600" rel="stylesheet"/>
         </Helmet>
-        <Header />
-        <main>
+        <div className="layout__wrapper">
+           <Header />
+        <main className="layout__main">
             {props.children}
         </main>
-        <Footer />
+        <Footer /> 
+        </div>
+        
     </React.Fragment>
    )
 }

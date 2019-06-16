@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.layout__wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 1em;
+}
+
+.layout__main {
+    flex-grow: 1;
+}
