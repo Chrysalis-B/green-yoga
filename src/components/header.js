@@ -1,13 +1,13 @@
 import React from "react"
 import HeaderData from "../data/header.json"
-import Logo from "./logo"
+import LogoLandscape from "./logo-landscape"
 import "./header.css"
 
 export default (props) => {
     return(
     <header className="header">
         <div className="header__logo-container">
-            <Logo />
+            <LogoLandscape/>
         </div>
         <nav className="header__navigation">
             <ul className="header__navigation-list">
