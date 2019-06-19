@@ -4,13 +4,11 @@ import "./hero.css"
 import useInterval from "../lib/useInterval"
 import BackgroundImage from 'gatsby-background-image'
 
- 
-
 export default () => {
     const data = useStaticQuery(
         graphql`
         query {
-            image1: 
+            image0: 
                 file(relativePath: { eq: "assets/hero-img-studio-one.jpg" }) {
                     childImageSharp {
                       fluid(maxWidth: 1800 maxHeight: 1000) {
@@ -18,7 +16,7 @@ export default () => {
                       }
                     }
                 }
-            image2: 
+            image1: 
                 file(relativePath: { eq: "assets/hero-img-planting.jpg" }) {
                     childImageSharp {
                       fluid(maxWidth: 1800 maxHeight: 1000) {
@@ -26,7 +24,7 @@ export default () => {
                       }
                     }
                 }
-            image3: 
+            image2: 
                 file(relativePath: { eq: "assets/hero-img-studio-two.jpg" }) {
                     childImageSharp {
                       fluid(maxWidth: 1800 maxHeight: 1000) {
@@ -37,11 +35,19 @@ export default () => {
         }
       `
     );
-    const [image, setImage] = useState(data.image2.childImageSharp.fluid)
-    const images = [data.image1.childImageSharp.fluid, data.image2.childImageSharp.fluid, data.image3.childImageSharp.fluid];
-    
+    const images = [data.image0.childImageSharp.fluid, data.image1.childImageSharp.fluid, data.image2.childImageSharp.fluid];
+    const [image, setImage] = useState(images[0])
+    const [current, setCurrent] = useState(0);
+
     useInterval(() => {
-        setImage(data.image1.childImageSharp.fluid);
+        if(current < images.length - 1) {
+            setCurrent(current +1);
+            setImage(images[current +1])
+        }
+        else {
+            setCurrent(0);
+            setImage(images[0])
+        }
       }, 2000);
     
     return (
