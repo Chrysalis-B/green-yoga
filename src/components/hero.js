@@ -1,10 +1,10 @@
-import React from "react"
+import React, { useState } from 'react';
 import { useStaticQuery, graphql } from "gatsby"
 import "./hero.css"
-import useState from "react"
-
+import useInterval from "../lib/useInterval"
 import BackgroundImage from 'gatsby-background-image'
 
+ 
 
 export default () => {
     const data = useStaticQuery(
@@ -37,10 +37,16 @@ export default () => {
         }
       `
     );
+    const [image, setImage] = useState(data.image2.childImageSharp.fluid)
     const images = [data.image1.childImageSharp.fluid, data.image2.childImageSharp.fluid, data.image3.childImageSharp.fluid];
+    
+    useInterval(() => {
+        setImage(data.image1.childImageSharp.fluid);
+      }, 2000);
+    
     return (
         <div className="hero-section__image-container">
-            <BackgroundImage className="hero-section__background-image" fluid={images}/>
+            <BackgroundImage className="hero-section__background-image" fluid={image}/>
         </div>
     )
 }
