@@ -15,7 +15,9 @@ export default (props) => {
         <nav className="header__navigation">
             <ul className="header__navigation-list">
                 {HeaderData.navButtons.map((button, index) => (
-                    <li className="header__navigation-list-item" key={index}>{button}</li>
+                    <Link to={button.href} key={index}>
+                        <li className="header__navigation-list-item">{button.text}</li>
+                    </Link>
                 ))}
             </ul>
         </nav>
