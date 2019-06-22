@@ -1,6 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
 import Img from "gatsby-image/withIEPolyfill"
+import PhoneIcon from "../assets/icons/phone.svg"
+import SmsIcon from "../assets/icons/sms.svg"
 import { useStaticQuery, graphql } from "gatsby"
 
 import "./footer.css"
@@ -44,18 +46,18 @@ export default () => {
         <address className="footer__container">
             <div className="footer__address-partition">
                 <p className="footer__address-item">Green Yoga</p>
-                <p className="footer__address-item">Srikanth Reddy Beeram</p> 
+                <p className="footer__address-item">Srikanth Reddy Beeram</p>
+                <div><Link className="footer__address-item-link" to="/imprint">Imprint</Link></div> 
             </div>
             <div className="footer__address-partition">
-                <a className="footer__address-item-link" href="https://goo.gl/maps/87LAAiKgWsxpH5b46" target="_blank" rel="noopener noreferrer">Sredzkistr. 59</a>
-                <a className="footer__address-item-link" href="https://goo.gl/maps/87LAAiKgWsxpH5b462" target="_blank" rel="noopener noreferrer">10405 Berlin</a>
-                <Link className="footer__address-item-link" to="/imprint">Imprint</Link>
+                <div><a className="footer__address-item-link" href="https://goo.gl/maps/87LAAiKgWsxpH5b46" target="_blank" rel="noopener noreferrer">Sredzkistr. 59</a></div>
+                <div><a className="footer__address-item-link" href="https://goo.gl/maps/87LAAiKgWsxpH5b46" target="_blank" rel="noopener noreferrer">10405 Berlin</a></div>
             </div>
         </address>
         <div className="footer__container">
             <div className="footer__address-partition">
-                <a className="footer__address-item-link" href="tel:49-1771431355">+49 1771 431355</a>
-                <a className="footer__address-item-link" href="tel:49-15781974844">+49 1578 1974844</a>
+                <div><img className="footer__address-icon-phone" src={PhoneIcon} alt="call"/> <img className="footer__address-icon-phone" src={SmsIcon} alt="text"/><a className="footer__address-item-link" href="tel:49-1771431355">+49 1771 431355</a></div>
+                <img className="footer__address-icon-phone" src={PhoneIcon} alt="call"/> <img className="footer__address-icon-phone" src={SmsIcon} alt="text"/><a className="footer__address-item-link" href="tel:49-15781974844">+49 1578 1974844</a>
             </div>
         </div>
         <div className="footer__container">
@@ -63,7 +65,7 @@ export default () => {
                 <a href="https://www.facebook.com/greenyoga.org" target="_blank" rel="noopener noreferrer">
                     <Img style={styleIcon} fixed={data.facebook.childImageSharp.fixed} alt="Facebook" />
                 </a>
-            
+
                 <a href="https://wa.me/00491771431355/" target="_blank" rel="noopener noreferrer">
                     <Img style={styleIcon} fixed={data.whatsapp.childImageSharp.fixed} alt="WhatsApp" />
                 </a>

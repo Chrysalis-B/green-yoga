@@ -3,17 +3,24 @@
     padding: 1rem;
 }
 
+ @media only screen and (max-width: 600px) {
+    .footer__wrapper {
+        display: flex;
+        padding: 1rem;
+        flex-direction: column;
+    } 
+}
+
 .footer__container {
     display: flex;
 }
 
 .footer__address-partition {
-    margin-right: 1rem;
+    margin: 0 1rem 1rem 0;
 }
 
 .footer__address-item {
-    display: block;
-    margin: 0.25rem 0;
+    margin-bottom: 0.25rem;
     font-size: 0.75rem;
     font-style: normal;
     text-decoration: none;
@@ -21,14 +28,17 @@
 }
 
 .footer__address-item-link {
-    display: block;
-    margin: 0.25rem 0;
     font-size: 0.75rem;
     font-style: normal;
     text-decoration: none;
+    vertical-align: top;
     color: #000;
 }
 
 .footer__address-item-link:hover {
     color: #86C83E;
+}
+
+.footer__address-icon-phone {
+    margin-right: 0.5rem;
 }
