@@ -48,7 +48,7 @@ export default () => {
             setCurrent(0);
             setImage(images[0])
         }
-      }, 2000);
+      }, 3000);
     
     return (
         <div className="hero-section__image-container">
