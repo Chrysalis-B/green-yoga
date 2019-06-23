@@ -41,15 +41,18 @@ export default () => {
   const [current, setCurrent] = useState(0);
   const [plantation, setPlantationTab] = useState(false);
   const [pranic, setPranicTab] = useState(false);
+  const [delay, setDelay] = useState(3000);
 
   const clickPlantation = (() => {
     setPlantationTab(!plantation);
     setPranicTab(false);
+    setDelay(null);
   });
 
   const clickPranic = (() => {
     setPlantationTab(false);
     setPranicTab(!pranic);
+    setDelay(null);
   });
 
   useInterval(() => {
@@ -61,7 +64,7 @@ export default () => {
       setCurrent(0);
       setImage(images[0])
     }
-  }, 300000);
+  }, delay);
 
   return (
     <div className="hero-section__image-container">

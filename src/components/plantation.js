@@ -33,7 +33,7 @@ export default () => {
     return (
         <div>
         <div 
-            className="blog-post-content" 
+            className="plantation__text-container" 
             dangerouslySetInnerHTML={{ __html: content }}>
         </div>
         <div className="plantation__images-container">
