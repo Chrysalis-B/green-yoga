@@ -12,7 +12,7 @@ export default () => {
             image0: 
                 file(relativePath: { eq: "assets/hero-img-studio-one.jpg" }) {
                     childImageSharp {
-                      fluid(maxWidth: 1200 maxHeight: 1000) {
+                      fluid(maxWidth: 1000 maxHeight: 1000) {
                         ...GatsbyImageSharpFluid
                       }
                     }
@@ -20,7 +20,7 @@ export default () => {
             image1: 
                 file(relativePath: { eq: "assets/hero-img-planting.jpg" }) {
                     childImageSharp {
-                      fluid(maxWidth: 1200 maxHeight: 1000) {
+                      fluid(maxWidth: 1000 maxHeight: 1000) {
                         ...GatsbyImageSharpFluid
                       }
                     }
@@ -46,14 +46,18 @@ export default () => {
   const clickPlantation = (() => {
     setPlantationTab(!plantation);
     setPranicTab(false);
-    setDelay(null);
+    determineDelay(!plantation);
   });
 
   const clickPranic = (() => {
     setPlantationTab(false);
     setPranicTab(!pranic);
-    setDelay(null);
+    determineDelay(!pranic);
   });
+
+  const determineDelay = ( (contentState) => {
+    contentState ? setDelay(null) : setDelay(3000); 
+  })    
 
   useInterval(() => {
     if (current < images.length - 1) {
