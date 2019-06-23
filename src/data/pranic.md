@@ -12,3 +12,4 @@ Pranic Healing® is not intended to replace conventional medicine, but rather to
 Pranic Healing® is a simple, powerful and effective no-touch energy healing technique. It is based on the fundamental principle that the body is a 'self-repairing' living entity that possesses the innate ability to heal itself. Pranic Healing® works on the principle that the healing process is accelerated by increasing the life force or vital energy on the affected part of the physical body.
 
 GrandMaster Choa Kok Sui, modern founder of Pranic Healing®, developed Pranic Healing over a 20 year period using experimentation and evidence-based research.
+
