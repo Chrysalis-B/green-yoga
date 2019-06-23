@@ -1,0 +1,7 @@
+.content-box__container {
+    margin-top: 2rem;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.9);
+    max-height: 400px;
+    overflow-y: scroll;
+}

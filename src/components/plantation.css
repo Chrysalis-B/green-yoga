@@ -1,0 +1,5 @@
+.plantation__images-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
