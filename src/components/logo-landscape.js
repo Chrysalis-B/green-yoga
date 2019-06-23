@@ -1,6 +1,6 @@
 import React from "react"
 import Img from "gatsby-image/withIEPolyfill"
-import { useStaticQuery } from "gatsby";
+import { useStaticQuery, graphql } from "gatsby";
 
 export default (props) => {
     const data = useStaticQuery(

@@ -39,6 +39,6 @@
     color: #86C83E;
 }
 
-.footer__address-icon-phone {
+.footer__address-icon-phone:last-of-type {
     margin-right: 0.5rem;
 }

@@ -1,17 +1,17 @@
-import React, { useState } from 'react';
-import { useStaticQuery, graphql } from "gatsby"
+import React, { useState } from 'react'
+import { useStaticQuery, graphql, Link } from "gatsby"
 import "./hero.css"
 import useInterval from "../lib/useInterval"
 import BackgroundImage from 'gatsby-background-image'
 
 export default () => {
-    const data = useStaticQuery(
-        graphql`
+  const data = useStaticQuery(
+    graphql`
         query {
             image0: 
                 file(relativePath: { eq: "assets/hero-img-studio-one.jpg" }) {
                     childImageSharp {
-                      fluid(maxWidth: 1800 maxHeight: 1000) {
+                      fluid(maxWidth: 1200 maxHeight: 1000) {
                         ...GatsbyImageSharpFluid
                       }
                     }
@@ -19,7 +19,7 @@ export default () => {
             image1: 
                 file(relativePath: { eq: "assets/hero-img-planting.jpg" }) {
                     childImageSharp {
-                      fluid(maxWidth: 1800 maxHeight: 1000) {
+                      fluid(maxWidth: 1200 maxHeight: 1000) {
                         ...GatsbyImageSharpFluid
                       }
                     }
@@ -27,32 +27,46 @@ export default () => {
             image2: 
                 file(relativePath: { eq: "assets/hero-img-studio-two.jpg" }) {
                     childImageSharp {
-                      fluid(maxWidth: 1800 maxHeight: 1000) {
+                      fluid(maxWidth: 1200 maxHeight: 1000) {
                         ...GatsbyImageSharpFluid
                       }
                     }
                 }
         }
       `
-    );
-    const images = [data.image0.childImageSharp.fluid, data.image1.childImageSharp.fluid, data.image2.childImageSharp.fluid];
-    const [image, setImage] = useState(images[0])
-    const [current, setCurrent] = useState(0);
+  );
+  const images = [data.image0.childImageSharp.fluid, data.image1.childImageSharp.fluid, data.image2.childImageSharp.fluid];
+  const [image, setImage] = useState(images[0])
+  const [current, setCurrent] = useState(0);
+  const [ plantation, setPlantationTab] = useState(false);
+  const [ pranic, setPranicTab] = useState(false);
 
-    useInterval(() => {
-        if(current < images.length - 1) {
-            setCurrent(current +1);
-            setImage(images[current +1])
-        }
-        else {
-            setCurrent(0);
-            setImage(images[0])
-        }
-      }, 3000);
-    
-    return (
-        <div className="hero-section__image-container">
-            <BackgroundImage className="hero-section__background-image" fluid={image}/>
+  useInterval(() => {
+    if (current < images.length - 1) {
+      setCurrent(current + 1);
+      setImage(images[current + 1])
+    }
+    else {
+      setCurrent(0);
+      setImage(images[0])
+    }
+  }, 300000);
+
+  return (
+    <div className="hero-section__image-container">
+      <BackgroundImage className="hero-section__background-image" fluid={image}>
+        <div className="hero-text">
+          <h1 className="hero-text__title">Do Yoga to Plant Trees</h1>
+          <h2 className="hero-text__sub-title">Pay as you wish yoga to fight climate change</h2>
+            <button onClick={setPlantationTab} className="hero-text__button">Plantation</button>
+            <Link to="/schedule">
+              <button className="hero-text__button">Yoga / Meditation</button>
+            </Link>
+            <button onClick={setPranicTab} className="hero-text__button">Pranic Healing</button>
+            {plantation && <p>YO CLICKED ON PLANTATION</p>}
+            {pranic && <p>YO CLICKED ON PRANIC</p>}
         </div>
-    )
+      </BackgroundImage>
+    </div>
+  )
 }
