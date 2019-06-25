@@ -2,8 +2,6 @@
 title: "pranic"
 id: "pranic"
 ---
-<!-- DO NOT EDIT THE LINES ABOVE! -->
-
 
 ## Pranic Healing
 
