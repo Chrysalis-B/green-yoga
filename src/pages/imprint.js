@@ -1,12 +1,13 @@
 import React from "react"
 import Layout from "../components/layout"
 import { graphql } from "gatsby"
+import "./imprint.css"
 
 export default ({data}) => {
     const content = data.markdownRemark.html;
     return (
         <Layout>
-            <div style={{padding: '1rem'}} dangerouslySetInnerHTML={{ __html: content }}></div>
+            <div className="imprint__container" dangerouslySetInnerHTML={{ __html: content }}></div>
         </Layout>
     )
 }

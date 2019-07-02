@@ -1,0 +1,7 @@
+.imprint__container {
+    padding: 1rem;
+}
+
+.imprint__container p, h2 {
+    margin: 1rem;
+}
