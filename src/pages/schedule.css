@@ -10,6 +10,12 @@
     min-height: 500px;
 }
 
+.schedule__link-to-sheet {
+    padding: 1rem;
+    font-size: 1rem;
+    color: #86C83E;
+}
+
 .schedule__classes-container {
     padding: 1rem;
 }
