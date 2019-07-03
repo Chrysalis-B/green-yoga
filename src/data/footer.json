@@ -1,0 +1,23 @@
+{
+    "name": "Srikanth Reddy Beeram",
+    "companyName": "Green Yoga",
+    "address": {
+        "street": "Sredzkistr. 59",
+        "zip": "10405",
+        "city": "Berlin",
+        "url": "https://goo.gl/maps/87LAAiKgWsxpH5b46"
+    },
+    "tel1": {
+        "number": "+49 1771 431355",
+        "url": "tel:49-1771431355"
+        },
+    "tel2": {
+        "number": "+49 1578 1974844",
+        "url": "tel:49-15781974844"
+    },
+    "socialMedia": {
+        "facebook": "https://www.facebook.com/greenyoga.org",
+        "instagram": "https://www.instagram.com/greenyoga.co/",
+        "whatsapp": "https://wa.me/00491771431355/"
+    } 
+}
