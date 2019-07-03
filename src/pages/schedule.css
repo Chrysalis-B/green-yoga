@@ -1,0 +1,7 @@
+.schedule__container {
+    padding: 1rem;
+}
+
+.schedule__container p, h2 {
+    margin: 1rem;
+}
