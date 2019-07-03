@@ -1,5 +1,5 @@
 ---
-title: "schedule"
+title: "Schedule"
 id: "schedule"
 ---
 

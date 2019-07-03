@@ -1,7 +1,18 @@
-.schedule__container {
+.schedule__title {
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.schedule__timetable-sheet {
+    width: 100%;
+    min-height: 500px;
+    margin: 1rem;
+}
+
+.schedule__classes-container {
     padding: 1rem;
 }
 
-.schedule__container p, h2 {
+.schedule__classes-container p, h2 {
     margin: 1rem;
 }
