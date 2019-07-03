@@ -6,7 +6,6 @@ import "./schedule.css"
 export default ({data}) => {
     const content = data.markdownRemark.html;
     const title = data.markdownRemark.frontmatter.title;
-    console.log(typeof(title));
     return (
         <Layout>
             <React.Fragment>
