@@ -4,7 +4,7 @@ import Img from "gatsby-image/withIEPolyfill"
 import PhoneIcon from "../assets/icons/phone.svg"
 import SmsIcon from "../assets/icons/sms.svg"
 import { useStaticQuery, graphql } from "gatsby"
-import FooterData from "../data/footer.json"
+import ContactData from "../data/contact.json"
 import "./footer.css"
 
 export default () => {
@@ -45,13 +45,13 @@ export default () => {
     <footer className="footer__wrapper">
         <address className="footer__container">
             <div className="footer__address-partition">
-                <p className="footer__address-item">{FooterData.companyName}</p>
-                <p className="footer__address-item">{FooterData.name}</p>
+                <p className="footer__address-item">{ContactData.companyName}</p>
+                <p className="footer__address-item">{ContactData.name}</p>
                 <div><Link className="footer__address-item-link" to="/imprint">Imprint</Link></div> 
             </div>
             <div className="footer__address-partition">
-                <div><a className="footer__address-item-link" href={FooterData.address.url} target="_blank" rel="noopener noreferrer">{FooterData.address.street}</a></div>
-                <div><a className="footer__address-item-link" href={FooterData.address.url} target="_blank" rel="noopener noreferrer">{FooterData.address.zip} {FooterData.address.city}</a></div>
+                <div><a className="footer__address-item-link" href={ContactData.address.url} target="_blank" rel="noopener noreferrer">{ContactData.address.street}</a></div>
+                <div><a className="footer__address-item-link" href={ContactData.address.url} target="_blank" rel="noopener noreferrer">{ContactData.address.zip} {ContactData.address.city}</a></div>
             </div>
         </address>
         <div className="footer__container">
@@ -59,26 +59,26 @@ export default () => {
                 <div>
                     <img className="footer__address-icon-phone" src={PhoneIcon} alt="call"/> 
                     <img className="footer__address-icon-phone" src={SmsIcon} alt="text"/>
-                    <a className="footer__address-item-link" href={FooterData.tel1.url}>{FooterData.tel1.number}</a>
+                    <a className="footer__address-item-link" href={ContactData.tel1.url}>{ContactData.tel1.number}</a>
                 </div>
                 <div>
                     <img className="footer__address-icon-phone" src={PhoneIcon} alt="call"/> 
                     <img className="footer__address-icon-phone" src={SmsIcon} alt="text"/>
-                    <a className="footer__address-item-link" href={FooterData.tel2.url}>{FooterData.tel2.number}</a>
+                    <a className="footer__address-item-link" href={ContactData.tel2.url}>{ContactData.tel2.number}</a>
                 </div>
                 
             </div>
         </div>
         <div className="footer__container">
             <div className="footer__address-partition">
-                <a href={FooterData.socialMedia.facebook} target="_blank" rel="noopener noreferrer">
+                <a href={ContactData.socialMedia.facebook} target="_blank" rel="noopener noreferrer">
                     <Img style={styleIcon} fixed={data.facebook.childImageSharp.fixed} alt="Facebook" />
                 </a>
 
-                <a href={FooterData.socialMedia.whatsapp} target="_blank" rel="noopener noreferrer">
+                <a href={ContactData.socialMedia.whatsapp} target="_blank" rel="noopener noreferrer">
                     <Img style={styleIcon} fixed={data.whatsapp.childImageSharp.fixed} alt="WhatsApp" />
                 </a>
-                <a href={FooterData.socialMedia.instagram} target="_blank" rel="noopener noreferrer">
+                <a href={ContactData.socialMedia.instagram} target="_blank" rel="noopener noreferrer">
                     <Img fixed={data.instagram.childImageSharp.fixed} alt="Instagram" />
                 </a>
             </div>
