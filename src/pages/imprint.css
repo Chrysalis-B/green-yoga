@@ -2,6 +2,10 @@
     padding: 1rem;
 }
 
-.imprint__container p, h2 {
+.imprint__container p, .imprint__container h2 {
     margin: 1rem;
+}
+
+.imprint__container a {
+    color: #86C83E;
 }
