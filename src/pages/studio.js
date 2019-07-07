@@ -51,7 +51,7 @@ query {
           node {
               id
               childImageSharp {
-              fluid(maxWidth: 600 maxHeight:450) {
+              fluid(maxWidth: 600) {
                 ...GatsbyImageSharpFluid
               }
             }
