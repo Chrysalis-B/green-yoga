@@ -5,6 +5,7 @@ import PhoneIcon from "../assets/icons/phone.svg"
 import SmsIcon from "../assets/icons/sms.svg"
 import { useStaticQuery, graphql } from "gatsby"
 import ContactData from "../data/contact.json"
+import NavigationData from "../data/navigation.json"
 import "./footer.css"
 
 export default () => {
@@ -47,7 +48,7 @@ export default () => {
             <div className="footer__address-partition">
                 <p className="footer__address-item">{ContactData.companyName}</p>
                 <p className="footer__address-item">{ContactData.name}</p>
-                <div><Link className="footer__address-item-link" to="/imprint">Imprint</Link></div> 
+                <div><Link className="footer__address-item-link" to={NavigationData.footer[0].url}>{NavigationData.footer[0].text}</Link></div> 
             </div>
             <div className="footer__address-partition">
                 <div><a className="footer__address-item-link" href={ContactData.address.url} target="_blank" rel="noopener noreferrer">{ContactData.address.street}</a></div>

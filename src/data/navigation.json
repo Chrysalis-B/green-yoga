@@ -1,0 +1,34 @@
+{
+    "header": [
+        {
+            "text": "Schedule",
+            "url": "/schedule"
+        }, 
+        {
+            "text": "Studio",
+            "url": "/studio"
+        }
+    ],
+    "footer": [
+        {
+            "text": "Imprint",
+            "url": "/imprint"
+        }
+    ],
+    "heroButtons": {
+        "plantation": {
+            "text": "Plantation"
+        },
+        "yoga": {
+            "text": "Yoga / Meditation",
+            "url": "/schedule"
+        },
+        "pranic": {
+            "text": "Pranic Healing"
+        }
+    },
+    "heroText": {
+        "title": "Do yoga to plant trees",
+        "subTitle": "Pay as you wish yoga to fight climate change"
+    }
+}

@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import HeaderData from "../data/header.json"
+import HeaderData from "../data/navigation.json"
 import LogoLandscape from "./logo-landscape"
 import "./header.css"
 
@@ -14,8 +14,8 @@ export default (props) => {
         </div>
         <nav className="header__navigation">
             <ul className="header__navigation-list">
-                {HeaderData.navButtons.map((button, index) => (
-                    <Link to={button.href} key={index}>
+                {HeaderData.header.map((button, index) => (
+                    <Link to={button.url} key={index}>
                         <li className="header__navigation-list-item">{button.text}</li>
                     </Link>
                 ))}

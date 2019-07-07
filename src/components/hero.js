@@ -4,35 +4,36 @@ import './hero.css'
 import useInterval from '../lib/useInterval'
 import BackgroundImage from 'gatsby-background-image'
 import ContentBox from './content-box'
+import NavigationData from '../data/navigation.json'
 
 export default () => {
   const data = useStaticQuery(
     graphql`
         query {
-            image0: 
-                file(relativePath: { eq: "assets/hero/hero-img-studio-one.jpg" }) {
-                    childImageSharp {
-                      fluid(maxWidth: 1000 maxHeight: 1000) {
-                        ...GatsbyImageSharpFluid
-                      }
-                    }
+          image0: 
+            file(relativePath: { eq: "assets/hero/hero-img-studio-one.jpg" }) {
+              childImageSharp {
+                fluid(maxWidth: 1000 maxHeight: 1000) {
+                ...GatsbyImageSharpFluid
                 }
-            image1: 
-                file(relativePath: { eq: "assets/hero/hero-img-planting.jpg" }) {
-                    childImageSharp {
-                      fluid(maxWidth: 1000 maxHeight: 1000) {
-                        ...GatsbyImageSharpFluid
-                      }
-                    }
+              }
+          }
+          image1: 
+            file(relativePath: { eq: "assets/hero/hero-img-planting.jpg" }) {
+                childImageSharp {
+                  fluid(maxWidth: 1000 maxHeight: 1000) {
+                    ...GatsbyImageSharpFluid
+                  }
                 }
-            image2: 
-                file(relativePath: { eq: "assets/hero/hero-img-studio-two.jpg" }) {
-                    childImageSharp {
-                      fluid(maxWidth: 1200 maxHeight: 1000) {
-                        ...GatsbyImageSharpFluid
-                      }
-                    }
+          }
+          image2: 
+            file(relativePath: { eq: "assets/hero/hero-img-studio-two.jpg" }) {
+              childImageSharp {
+                fluid(maxWidth: 1200 maxHeight: 1000) {
+                 ...GatsbyImageSharpFluid
                 }
+              }
+          }
         }
       `
   );
@@ -74,14 +75,14 @@ export default () => {
     <div className="hero-section__image-container">
       <BackgroundImage className="hero-section__background-image" fluid={image}>
         <div className="hero-text">
-          <h1 className="hero-text__title">Do Yoga to Plant Trees</h1>
-          <h2 className="hero-text__sub-title">Pay as you wish yoga to fight climate change</h2>
+          <h1 className="hero-text__title">{NavigationData.heroText.title}</h1>
+          <h2 className="hero-text__sub-title">{NavigationData.heroText.subTitle}</h2>
           <div className="hero-text__button-container">
-            <button onClick={() => clickPlantation()} className="hero-text__button">Plantation</button>
-            <Link to="/schedule">
-              <button className="hero-text__button">Yoga / Meditation</button>
+            <button onClick={() => clickPlantation()} className="hero-text__button">{NavigationData.heroButtons.plantation.text}</button>
+            <Link to={NavigationData.heroButtons.yoga.url}>
+              <button className="hero-text__button">{NavigationData.heroButtons.yoga.text}</button>
             </Link>
-            <button onClick={() => clickPranic()} className="hero-text__button">Pranic Healing</button>
+            <button onClick={() => clickPranic()} className="hero-text__button">{NavigationData.heroButtons.pranic.text}</button>
           </div>
           {plantation && <ContentBox plantation="true"/>}
           {pranic && <ContentBox pranic="true"/>}
