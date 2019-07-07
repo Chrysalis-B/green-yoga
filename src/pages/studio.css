@@ -1,0 +1,36 @@
+.studio__container {
+    margin: 1rem auto 2rem auto;
+    max-width: 600px;
+    padding: 1rem;
+}
+
+.studio__title {
+    width: 300px;
+    font-size: 1.5rem;
+    color: 	#686868;
+    border-bottom: 1px solid #D3D3D3;
+}
+
+.studio__address {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+        .studio__map {
+            display: none;
+        }
+        .studio__address {
+            display: block;
+        }  
+}
+
+.studio__address-item {
+    margin-bottom: 0.25rem;
+    font-size: 1.25rem;
+    text-decoration: none;
+    color: #000;
+}
+
+.studio__address-item:hover {
+    color: #86C83E;
+}
