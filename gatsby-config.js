@@ -4,7 +4,6 @@ module.exports = {
     description: "Pay as you wish yoga classes in Berlin to fight climate change",
     language: "en"
   },
-  pathPrefix: "/green-yoga",
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
