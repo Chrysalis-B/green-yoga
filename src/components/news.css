@@ -4,3 +4,7 @@
     width: 100%;
     background: rgba(134,200,62,0.3);
 }
+
+.news__container > p {
+    margin: 0.5em 0;
+}
