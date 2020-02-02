@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
-import ContactData from "../data/contact.json"
+import ContactData from "../data/contact-p-berg.json"
 import { graphql } from 'gatsby'
 import Img from "gatsby-image/withIEPolyfill"
 import "./studio.css"

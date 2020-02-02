@@ -1,12 +1,16 @@
 {
     "header": [
         {
-            "text": "Schedule",
-            "url": "/schedule"
+            "text": "Schedule P-Berg",
+            "url": "/schedule-p-berg"
         }, 
         {
-            "text": "Studio",
-            "url": "/studio"
+            "text": "Schedule X-Berg",
+            "url": "/schedule-x-berg"
+        }, 
+        {
+            "text": "Our Studios",
+            "url": "/studios"
         }
     ],
     "footer": [

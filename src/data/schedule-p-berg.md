@@ -1,6 +1,6 @@
 ---
-title: "Schedule"
-id: "schedule"
+title: "Schedule P-Berg"
+id: "schedule-p-berg"
 ---
 
 ## Body and mind flow through creative dance  

@@ -4,7 +4,7 @@ import Img from "gatsby-image/withIEPolyfill"
 import PhoneIcon from "../assets/icons/phone.svg"
 import SmsIcon from "../assets/icons/sms.svg"
 import { useStaticQuery, graphql } from "gatsby"
-import ContactData from "../data/contact.json"
+import ContactData from "../data/contact-p-berg.json"
 import NavigationData from "../data/navigation.json"
 import "./footer.css"
 

@@ -1,3 +1,9 @@
+@media only screen and (max-width: 690px) {
+    .header {
+        flex-direction: column;
+    }
+}
+
 .header {
     display: flex;
     padding: 1rem;
@@ -11,6 +17,7 @@
 .header__navigation {
     display: inline-block;
 }
+
 
 .header__navigation-list {
     list-style-type: none;
