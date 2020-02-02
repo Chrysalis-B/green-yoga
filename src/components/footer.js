@@ -128,15 +128,10 @@ export default () => {
                                         </span>
                                     </div>
                                     <div>
-                                        <a
-                                            className="footer__address-item-link"
-                                            href={contact.address.url}
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                        >
+                                        <span className="footer__address-item">
                                             {contact.address.zip}{" "}
                                             {contact.address.city}
-                                        </a>
+                                        </span>
                                     </div>
                                 </div>
                             </address>

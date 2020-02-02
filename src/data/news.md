@@ -3,7 +3,7 @@ title: "news"
 id: "news"
 ---
 
-Visit us at our new studio at Sredzkistr. 59 ! 🧘‍♀️  
+Visit us at our studios at Sredzkistr. 59 and Oranienstr. 163! 🧘‍♀️  
 
 Pricing: Pay what you can afford.  
 

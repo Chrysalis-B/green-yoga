@@ -3,6 +3,11 @@
     margin: 1rem;
 }
 
+.schedule__address-container {
+    font-size: 0.5rem;
+    margin: 1rem;
+}
+
 .schedule__timetable-sheet {
     width: 100%;
     max-width: 1170px;
