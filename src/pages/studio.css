@@ -15,15 +15,6 @@
     display: none;
 }
 
-@media only screen and (max-width: 600px) {
-        .studio__map {
-            display: none;
-        }
-        .studio__address {
-            display: block;
-        }  
-}
-
 .studio__address-item {
     margin-bottom: 0.25rem;
     font-size: 1.25rem;
@@ -33,4 +24,14 @@
 
 .studio__address-item:hover {
     color: #86C83E;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .studio__map {
+        display: none;
+    }
+    .studio__address {
+        display: block;
+    }  
 }

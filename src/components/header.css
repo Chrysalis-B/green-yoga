@@ -1,9 +1,3 @@
-@media only screen and (max-width: 690px) {
-    .header {
-        flex-direction: column;
-    }
-}
-
 .header {
     display: flex;
     padding: 1rem;
@@ -46,4 +40,10 @@
 
 .header__navigation-list-item:hover {
     box-shadow: 0 0 0 2px #D3D3D3;
+}
+
+@media only screen and (max-width: 690px) {
+    .header {
+        flex-direction: column;
+    }
 }

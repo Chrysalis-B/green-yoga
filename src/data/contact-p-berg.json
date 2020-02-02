@@ -1,6 +1,6 @@
 {
-    "name": "Srikanth Reddy Beeram",
-    "companyName": "Green Yoga",
+    "studioName": "Green Yoga P-Berg",
+    "contactName": "Srikanth Reddy Beeram",
     "address": {
         "street": "Sredzkistr. 59",
         "zip": "10405",
@@ -11,13 +11,12 @@
         "number": "+49 1771 431355",
         "url": "tel:49-1771431355"
         },
-    "tel2": {
+    "whatsapp": {
         "number": "+49 1578 1974844",
-        "url": "tel:49-15781974844"
+        "url": "https://wa.me/00491771431355"
     },
     "socialMedia": {
         "facebook": "https://www.facebook.com/greenyoga.org",
-        "instagram": "https://www.instagram.com/greenyoga.co/",
-        "whatsapp": "https://wa.me/00491771431355/"
+        "instagram": "https://www.instagram.com/greenyoga.co/"
     } 
 }
