@@ -40,6 +40,7 @@
 
 .footer__address-item-title {
     margin-bottom: 0.25rem;
+    min-width: 10rem;
     font-size: 0.75rem;
     font-style: normal;
     font-weight: 600;

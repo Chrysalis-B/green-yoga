@@ -25,6 +25,6 @@
     padding: 1rem;
 }
 
-.schedule__classes-container p, h2 {
+.schedule__classes-container p, .schedule__classes-container h2 {
     margin: 1rem;
 }
