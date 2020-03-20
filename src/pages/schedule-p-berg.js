@@ -21,15 +21,21 @@ export default ({ data }) => {
                     className="schedule__link-to-sheet"
                     target="_blank"
                     rel="noopener noreferrer"
-                    href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ-hHMaWeuBxLfpUezOefzVNU9aiu1gDmgJGxb0KYsCQPL0-Xg6SHHhoKFmLOf_d1yo-wfZPlizC-Bo/pubhtml?gid=354688609&single=true"
+                    href="https://widget.fitogram.pro/green-yoga?fito-embedded=true&w=/list-view"
                 >
                     Link to schedule
                 </a>
                 <iframe
-                    title="schedule-sheet"
-                    className="schedule__timetable-sheet"
-                    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ-hHMaWeuBxLfpUezOefzVNU9aiu1gDmgJGxb0KYsCQPL0-Xg6SHHhoKFmLOf_d1yo-wfZPlizC-Bo/pubhtml?gid=354688609&amp;single=true&amp;widget=true&amp;headers=false"
-                ></iframe>
+                    class="schedule__timetable-sheet"
+                    frameborder="0"
+                    title="schedule"
+                    id="embeddedFrame"
+                    name="embeddedFrame"
+                    scrolling="yes"
+                    src="https://widget.fitogram.pro/green-yoga?fito-embedded=true&w=/list-view"
+                    width="100%"
+                    height="800px">
+                </iframe>
                 <div
                     className="schedule__classes-container"
                     dangerouslySetInnerHTML={{ __html: content }}
