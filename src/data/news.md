@@ -3,12 +3,14 @@ title: "news"
 id: "news"
 ---
 
-Visit us at our studios at Sredzkistr. 59 and Oranienstr. 163! 🧘‍♀️  
+Hi Everyone,
 
-Pricing: Pay what you can afford.  
+we have moved our classes online. 
 
-Please bring a water bottle and a towel if you can. Mats are provided.   
+If you are a urban sports club member, you can reserve the classes in advance and attend them. 
 
-No reservation needed, come 10 minutes before the class.   
+If you want to drop in, our classes are still donation based, so you can send us a donation to our [paypal account](https://www.paypal.me/GreenYoga) or write to us to get our banking details. 
 
-Urban Sports, ClassPass and Gympass are accepeted.  
+You can join our classes via [Zoom](https://zoom.us/j/2406630203)
+
+Enjoy being present.
