@@ -17,26 +17,19 @@ export default ({ data }) => {
                         {ContactData.address.zip} {ContactData.address.city}
                     </p>
                 </div>
-                <div className="schedule__link-to-sheet">
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://widget.fitogram.pro/green-yoga/?fullscreen-mode=true&w=/list-view"
-                    >
-                        Link to schedule
+                <a
+                    className="schedule__link-to-sheet"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ-hHMaWeuBxLfpUezOefzVNU9aiu1gDmgJGxb0KYsCQPL0-Xg6SHHhoKFmLOf_d1yo-wfZPlizC-Bo/pubhtml?gid=354688609&single=true"
+                >
+                    Link to schedule
                 </a>
-                </div>
-
                 <iframe
-                    frameBorder="0"
-                    title="schedule"
-                    id="embeddedFrame"
-                    name="embeddedFrame"
-                    scrolling="yes"
-                    src="https://widget.fitogram.pro/green-yoga?fito-embedded=true&w=/list-view"
-                    width="100%"
-                    height="800px">
-                </iframe>
+                    title="schedule-sheet"
+                    className="schedule__timetable-sheet"
+                    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ-hHMaWeuBxLfpUezOefzVNU9aiu1gDmgJGxb0KYsCQPL0-Xg6SHHhoKFmLOf_d1yo-wfZPlizC-Bo/pubhtml?gid=354688609&amp;single=true&amp;widget=true&amp;headers=false"
+                ></iframe>
                 <div
                     className="schedule__classes-container"
                     dangerouslySetInnerHTML={{ __html: content }}
