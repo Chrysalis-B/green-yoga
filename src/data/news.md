@@ -11,6 +11,10 @@ If you are a urban sports club member, you can reserve the classes in advance an
 
 If you want to drop in, our classes are still donation based, so you can send us a donation to our [paypal account](https://www.paypal.me/GreenYoga) or write to us to get our banking details. 
 
-You can join our classes via [Zoom](https://zoom.us/j/2406630203)
+You can join our classes via Zoom:
+
+Prenzlauer Berg: [Zoom](https://zoom.us/j/2406630203)
+
+Kreuzberg: [Zoom](https://us04web.zoom.us/j/500803734)
 
 Enjoy being present.
