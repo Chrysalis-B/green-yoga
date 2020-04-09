@@ -13,8 +13,8 @@ If you want to drop in, our classes are still donation based, so you can send us
 
 You can join our classes via Zoom:
 
-Prenzlauer Berg: [Zoom](https://zoom.us/j/2406630203)
+Prenzlauer Berg: [Zoom](https://zoom.us/j/2406630203?pwd=UjBBN2FOamw3cnRLZ1RBdDFKRlhkdz09)
 
-Kreuzberg: [Zoom](https://us04web.zoom.us/j/500803734)
+Kreuzberg: [Zoom](https://us04web.zoom.us/j/828001574?pwd=WWtUWHdDR3ZVTFBadFl3cFRDUWxFUT09)
 
 Enjoy being present.

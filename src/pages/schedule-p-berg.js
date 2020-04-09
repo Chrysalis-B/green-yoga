@@ -10,13 +10,13 @@ export default ({ data }) => {
     return (
         <Layout>
             <React.Fragment>
-                <h1 className="schedule__title">{title}</h1>
+                {/* <h1 className="schedule__title">{title}</h1>
                 <div className="schedule__address-container">
                     <p>{ContactData.address.street}</p>
                     <p>
                         {ContactData.address.zip} {ContactData.address.city}
                     </p>
-                </div>
+                </div> */}
                 <a
                     className="schedule__link-to-sheet"
                     target="_blank"
