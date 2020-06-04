@@ -1,10 +1,33 @@
 .news__container {
-    text-align: center;
-    padding: 1rem;
     width: 100%;
-    background: rgba(134,200,62,0.3);
+    background: rgba(134, 200, 62, 0.3);
+    padding: 1rem 4rem;
 }
 
 .news__container > p {
     margin: 0.5em 0;
+    text-align: center;
+}
+.news__container > h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+.news__container > h2 {
+    margin: 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.news__container > ul {
+    padding: 0.5rem 10rem;
+}
+.news__container > ul > li {
+    padding: 0.15rem 0rem;
+}
+.news__container > table {
+    text-align: center;
+    padding: 1rem;
+}
+td {
+    padding: 1rem 5rem;
 }
