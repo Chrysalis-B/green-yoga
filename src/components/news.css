@@ -31,3 +31,18 @@
 td {
     padding: 1rem 5rem;
 }
+@media only screen and (max-width: 690px) {
+    .news__container > table {
+        text-align: center;
+        padding: 0rem;
+    }
+    td {
+        padding: 0rem 0rem;
+    }
+    .news__container > ul {
+        padding: 1rem;
+    }
+    .news__container > ul > li {
+        padding: 0;
+    }
+}
