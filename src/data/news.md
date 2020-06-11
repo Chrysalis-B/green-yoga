@@ -34,7 +34,7 @@ From energizing vinyasa flow and ecstatic dance to meditation, mantra singing an
   
 
 - A registration in advance on Fitogram is mandatory through USC or our website: **[Register Here](https://widget.fitogram.pro/green-yoga/?fito-embedded=true&w=/list-view)**
-- A max of 7 students can participate with 3m distance.
+- A max of 11 students can participate with 1.5m distance.
 - The classes will be streamed simultaneously on line from our studios.
 - Only the teacher will be seen in the video.
 - Bring your own mat and blanket and be ready in your yoga clothes.
