@@ -27,17 +27,14 @@ From energizing vinyasa flow and ecstatic dance to meditation, mantra singing an
 
 ## Open Air : Green Yoga brings yoga outdoor!
 
--   Classes are limited to 12 yogis and require pre-registration via
-    **[Fitogram.](https://widget.fitogram.pro/green-yoga/?fito-embedded=true&w=/list-view)**
 -   Classes are donation based.
 -   We are also accepting USC.
 -   Keep 1,5m distance to the fellow students and the teacher throughout
     the class.
 -   Please bring your own mat/blanket/thick pullover and everything you
     might need.
--   We will be checking the weather forecast the night before. The class
-    will be cancelled in case the temperature will be below 16 degree
-    and/or it is supposed to rain.
+-   For HASENHEIDE: We will be checking the weather forecast the night before. The class will be cancelled in case the temperature will be below 16 degree and/or it is supposed to rain.
+-   For VOLKSPARK FX: The classes will take place also in case of rain, indoor.
 
 | HASENHEIDE:                                                                   | VOLKSPARK FRIEDRICHSHAIN:                                                                                                                                                                                                                                                                                                                                       |
 | ----------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
