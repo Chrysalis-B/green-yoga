@@ -1,6 +1,6 @@
 {
     "studioName": "Green Yoga Kreuzberg",
-    "contactName": "Nora Schirmeier",
+    "contactName": "Giulia",
     "address": {
         "street": "Oranienstr. 163",
         "street2": "Hinterhaus 3.OG",
@@ -9,12 +9,11 @@
         "url": "https://goo.gl/maps/JR7GTKmi5jxDJdX9A"
     },
     "tel1": {
-        "number": "+49 1578 1974844",
-        "url": "tel:49-15781974844"
+        "number": "+49 162 8559247",
+        "url": "tel:49-1628559247"
     },
     "whatsapp": {
-        "number": "+49 1578 1974844",
-        "url": "https://wa.me/004915781974844"
+        "number": "+49 162 8559247",
+        "url": "https://wa.me/00491628559247"
     }
-
 }
