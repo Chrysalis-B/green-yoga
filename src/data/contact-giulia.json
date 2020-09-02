@@ -1,0 +1,12 @@
+{
+    "contactName": "Giulia",
+
+    "tel1": {
+        "number": "+49 162 8559247",
+        "url": "tel:49-1628559247"
+    },
+    "whatsapp": {
+        "number": "+49 162 8559247",
+        "url": "https://wa.me/00491628559247"
+    }
+}

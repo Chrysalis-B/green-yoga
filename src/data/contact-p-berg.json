@@ -1,6 +1,6 @@
 {
     "studioName": "Green Yoga Prenzlauer Berg",
-    "contactName": "Srikanth Reddy Beeram",
+    "contactName": "Srikanth ",
     "address": {
         "street": "Sredzkistr. 59",
         "zip": "10405",
@@ -10,7 +10,7 @@
     "tel1": {
         "number": "+49 1771 431355",
         "url": "tel:49-1771431355"
-        },
+    },
     "whatsapp": {
         "number": "+49 1578 1974844",
         "url": "https://wa.me/00491771431355"
@@ -18,5 +18,5 @@
     "socialMedia": {
         "facebook": "https://www.facebook.com/greenyoga.org",
         "instagram": "https://www.instagram.com/greenyoga.co/"
-    } 
+    }
 }

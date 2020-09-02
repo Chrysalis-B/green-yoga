@@ -6,6 +6,8 @@ import SmsIcon from "../assets/icons/sms.svg"
 import { useStaticQuery, graphql } from "gatsby"
 import ContactDataPBerg from "../data/contact-p-berg.json"
 import ContactDataXBerg from "../data/contact-x-berg.json"
+import ContactSabrina from "../data/contact-sabrina.json"
+import ContactGiulia from "../data/contact-giulia.json"
 import NavigationData from "../data/navigation.json"
 import "./footer.css"
 
@@ -48,7 +50,9 @@ export default () => {
     }
     let contactData = []
     contactData.push(ContactDataPBerg)
+    contactData.push(ContactGiulia)
     contactData.push(ContactDataXBerg)
+    contactData.push(ContactSabrina)
     return (
         <footer className="footer__wrapper">
             {contactData.map(contact => {
@@ -110,31 +114,33 @@ export default () => {
                                     </div>
                                 </div>
                             </div>
-                            <address className="footer__container-address">
-                                <div className="footer__address-partition">
-                                    <div>
-                                        <a
-                                            className="footer__address-item-link"
-                                            href={contact.address.url}
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                        >
-                                            {contact.address.street}
-                                        </a>
+                            {contact.address && (
+                                <address className="footer__container-address">
+                                    <div className="footer__address-partition">
+                                        <div>
+                                            <a
+                                                className="footer__address-item-link"
+                                                href={contact.address.url}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                {contact.address.street}
+                                            </a>
+                                        </div>
+                                        <div>
+                                            <span className="footer__address-item">
+                                                {contact.address.street2}
+                                            </span>
+                                        </div>
+                                        <div>
+                                            <span className="footer__address-item">
+                                                {contact.address.zip}{" "}
+                                                {contact.address.city}
+                                            </span>
+                                        </div>
                                     </div>
-                                    <div>
-                                        <span className="footer__address-item">
-                                            {contact.address.street2}
-                                        </span>
-                                    </div>
-                                    <div>
-                                        <span className="footer__address-item">
-                                            {contact.address.zip}{" "}
-                                            {contact.address.city}
-                                        </span>
-                                    </div>
-                                </div>
-                            </address>
+                                </address>
+                            )}
                             {contact.socialMedia && (
                                 <div className="footer__container">
                                     <div>

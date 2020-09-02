@@ -1,0 +1,12 @@
+{
+    "contactName": "Sabrina",
+
+    "tel1": {
+        "number": "+49 176 57899205",
+        "url": "tel:+49 176 57899205"
+    },
+    "whatsapp": {
+        "number": "+49 176 57899205",
+        "url": "https://wa.me/004917657899205"
+    }
+}
