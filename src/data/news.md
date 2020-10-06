@@ -11,11 +11,11 @@ From energizing vinyasa flow and ecstatic dance to meditation, mantra singing an
 
 **You can register to our classes via [Fitogram](https://widget.fitogram.pro/green-yoga/?fito-embedded=true&w=/list-view)**
 
-## Online : You can book your class on USC, Classpass, Gympass or paying a donation via [**PayPal**](https://www.paypal.me/GreenYoga) or to our bank account (write to us to get the details)
+## Online : You can book your class on USC, Classpass, Gympass or paying a donation via [**PayPal**](https://www.paypal.me/GreenYoga) _(please write the name of the teacher on your PayPal donations)_ or to our bank account (write to us to get the details)
 
--   You can join the classes via our Zoom streams: [**Prenzlauer Berg Zoom**](https://zoom.us/j/2406630203?pwd=UjBBN2FOamw3cnRLZ1RBdDFKRlhkdz09) And [**Kreuzberg Zoom**](https://us04web.zoom.us/j/828001574?pwd=WWtUWHdDR3ZVTFBadFl3cFRDUWxFUT09)
+-   You can join the classes via our Zoom streams: [**Prenzlauer Berg Zoom**](https://us02web.zoom.us/j/2406630203?pwd=MHZLZGRoN01KSmw3OFFZWlBQU0JKdz09) And [**Kreuzberg Zoom**](https://us04web.zoom.us/j/828001574?pwd=WWtUWHdDR3ZVTFBadFl3cFRDUWxFUT09)
 
-## Offline : You can join via USC or pay a donation to the teacher.
+## Offline : You can join via USC or pay a donation to the teacher _(in case you pay the class via pay pal please write the name of the teacher on your donation.)_
 
 -   A registration in advance on Fitogram is mandatory through USC or our website: **[Register Here](https://widget.fitogram.pro/green-yoga/?fito-embedded=true&w=/list-view)**
 -   A max of 11 students can participate with 1.5m distance.

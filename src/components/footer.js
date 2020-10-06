@@ -52,7 +52,7 @@ export default () => {
     contactData.push(ContactDataPBerg)
     contactData.push(ContactGiulia)
     contactData.push(ContactDataXBerg)
-    contactData.push(ContactSabrina)
+    //contactData.push(ContactSabrina)
     return (
         <footer className="footer__wrapper">
             {contactData.map(contact => {
